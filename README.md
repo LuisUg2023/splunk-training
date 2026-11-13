@@ -1,27 +1,38 @@
-# Portafolio — Splunk Training (plataforma oficial)
+# Portafolio — Splunk Training oficial
 
-## Descripción
-Portafolio de aprendizaje basado exclusivamente en los cursos, evaluaciones y recursos de la plataforma oficial **Splunk Training**. Documenta el desarrollo progresivo de competencias en búsqueda y análisis de datos con SPL, visualización, monitoreo, detección de amenazas, investigación de incidentes y administración de Splunk.
+Este repositorio organiza el aprendizaje realizado y planificado con **Splunk Training**, utilizando los nombres oficiales de certificaciones, roles y cursos como referencias de búsqueda y clasificación.
 
-Splunk permite recopilar, centralizar, buscar y analizar datos de máquinas (*machine data*) procedentes de sistemas operativos, servidores, aplicaciones y dispositivos de red. En operaciones de ciberseguridad, estas capacidades pueden apoyar la supervisión de eventos, la detección de comportamientos anómalos y la investigación de incidentes.
+## Rutas y certificaciones
 
-## Ruta de aprendizaje
-La ruta está organizada por etapas en [RUTA-DE-APRENDIZAJE.md](./RUTA-DE-APRENDIZAJE.md).
+### Ruta de usuario y administración de Splunk
+1. [Splunk Core Certified User](./01-splunk-core-certified-user/README.md)
+2. [Splunk Core Certified Power User](./02-splunk-core-certified-power-user/README.md)
+3. [Splunk Enterprise Certified Admin](./03-splunk-enterprise-certified-admin/README.md)
 
-## Documentación práctica
+### Ruta de ciberseguridad y operaciones defensivas
+4. [Splunk Certified Cybersecurity Defense Analyst](./04-splunk-certified-cybersecurity-defense-analyst/README.md)
+5. [Splunk Certified Cybersecurity Defense Engineer](./05-splunk-certified-cybersecurity-defense-engineer/README.md)
+
+### Especialización SOAR
+6. [Splunk SOAR Certified Automation Developer (Legacy)](./06-splunk-soar-certified-automation-developer/README.md)
+
+Estas rutas no representan una única secuencia obligatoria. Core User, Power User y Enterprise Certified Admin forman una progresión de competencias de plataforma. Cybersecurity Defense Analyst y Cybersecurity Defense Engineer corresponden a la especialización defensiva. SOAR es una especialización de automatización; la designación Automation Developer está identificada como Legacy en la referencia de certificaciones consultada.
+
+## Documentación transversal
+- [Ruta general de aprendizaje y correspondencia de cursos](./RUTA-DE-APRENDIZAJE.md)
 - [Comandos SPL fundamentales](./SPL-COMANDOS-FUNDAMENTALES.md)
 - [Evaluaciones y ejercicios](./EVALUACIONES-Y-EJERCICIOS.md)
 - [Laboratorios](./laboratorios/README.md)
 
-## Criterios de registro
-- Registrar cursos y evaluaciones con el nombre real de la plataforma y su estado verificable.
-- Separar contenido estudiado, ejercicios propuestos y laboratorios ejecutados.
-- Incorporar capturas auténticas, consultas utilizadas, resultados observados y análisis.
-- No marcar un laboratorio como completado sin ejecución y evidencia.
-- No incluir credenciales, tokens, datos personales ni información sensible.
+## Integridad del portafolio
+- Los títulos de cursos se conservan en inglés tal como fueron identificados en Splunk Training.
+- Las certificaciones son objetivos de aprendizaje; este repositorio no afirma que hayan sido obtenidas.
+- Se diferencia entre curso identificado, contenido estudiado, evaluación realizada, práctica planificada y laboratorio ejecutado.
+- No se registran capturas, resultados de laboratorio ni puntuaciones que no estén respaldados por evidencia.
+- Las duraciones pueden cambiar en el catálogo oficial y deben verificarse al momento de consultar cada curso.
 
-## Alcance y separación
-Este repositorio contiene únicamente material de **Splunk Training oficial**. El curso «Introducción a Splunk» de Udemy está en el repositorio independiente [splunk-udemy](https://github.com/LuisUg2023/splunk-udemy). El certificado de Google Cybersecurity de Coursera permanece en [portfolio-ciberseguridad](https://github.com/LuisUg2023/portfolio-ciberseguridad).
+## Separación de otros portafolios
+- [splunk-udemy](https://github.com/LuisUg2023/splunk-udemy): curso «Introducción a Splunk» de Udemy.
+- [portfolio-ciberseguridad](https://github.com/LuisUg2023/portfolio-ciberseguridad): Google Cybersecurity Certificate de Coursera y módulos de ciberseguridad correspondientes.
 
-## Estado inicial
-Repositorio organizado con la ruta de aprendizaje y documentación base. Los laboratorios se completarán conforme se ejecuten y documenten en el entorno de práctica.
+Este repositorio contiene exclusivamente la organización del aprendizaje relacionado con **Splunk Training oficial**.
