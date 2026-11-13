@@ -1,131 +1,135 @@
-# Ruta de aprendizaje oficial — Splunk Training
+# Rutas oficiales de aprendizaje — Splunk Training
 
-> **Alcance:** esta ruta corresponde exclusivamente al catálogo y los recursos de Splunk Training. No incluye el curso «Introducción a Splunk» de Udemy ni el certificado de Google Cybersecurity de Coursera.
+> Organización por nombres de certificación y especialización utilizados como términos de búsqueda. Los títulos de cursos se mantienen en inglés. La inclusión de un curso en una ruta indica correspondencia temática, no que se haya completado ni que sea requisito oficial de examen.
 
-La secuencia está organizada por competencias y conserva los títulos de los cursos identificados en la plataforma. Las duraciones son las registradas durante la revisión del catálogo; pueden cambiar si Splunk actualiza sus contenidos.
+## 1. Splunk Core Certified User
 
-## Etapa 1. Fundamentos de Splunk y operaciones de seguridad
+**Objetivo:** adquirir las competencias iniciales para navegar Splunk, localizar eventos y realizar búsquedas básicas.
 
-| Curso oficial | Duración registrada | Contenido / competencia |
-|---|---:|---|
-| Intro to Splunk (eLearning) – Spanish Captions | 45 min | Introducción a Splunk, interfaz y conceptos iniciales. Estado registrado: Successful. |
-| Security Operations and the Defense Analyst | 2 h | Operaciones de seguridad, funciones del analista y ciclo de trabajo defensivo. |
-| The Cybersecurity Landscape | 3 h | Panorama de ciberseguridad, amenazas y contexto de defensa. |
-| Introduction to Cybersecurity Awareness | 30 min | Fundamentos de concienciación y prácticas de seguridad. |
-| Introduction to Splunk Security Essentials | 45 min | Casos de uso y contenido de seguridad en Splunk Security Essentials. |
+Cursos identificados:
+- Intro to Splunk (eLearning) - Spanish Captions
+- Introduction to Cybersecurity Awareness
 
-**Temas transversales:** interfaz Search & Reporting, navegación, eventos, campos, índices, sourcetypes, hosts, fuentes de datos y flujo general de análisis.
+Contenidos:
+- Interfaz de Splunk y aplicación Search & Reporting.
+- Eventos, índices, hosts, sources y sourcetypes.
+- Selección del rango temporal.
+- Búsqueda de términos y frases.
+- Filtros iniciales y lectura de resultados.
 
-**Práctica asociada:** LAB-01 — Reconocimiento de interfaz, fuentes de datos, eventos y búsquedas iniciales.
+Práctica relacionada: LAB-01 — Reconocimiento de la interfaz, incorporación de datos y búsquedas iniciales.
 
-## Etapa 2. Búsqueda, SPL y análisis de datos
+## 2. Splunk Core Certified Power User
 
-| Curso oficial | Duración registrada | Contenido / competencia |
-|---|---:|---|
-| Using Fields | 1 h | Identificación, selección y uso de campos. |
-| Search Under the Hood | 1 h | Funcionamiento interno de las búsquedas y procesamiento de resultados. |
-| Working with Time | 3 h | Rangos temporales, tiempo de búsqueda y análisis temporal. |
-| Comparing Values | 3 h | Comparación de valores y condiciones en búsquedas. |
-| Statistical Processing | 3 h | Procesamiento estadístico y agregaciones. |
-| Result Modification | 3 h | Transformación, ordenamiento y modificación de resultados. |
-| Creating Field Extractions | 3 h | Extracción y creación de campos. |
-| Enriching Data with Lookups | 3 h | Enriquecimiento de eventos mediante tablas de búsqueda (lookups). |
+**Objetivo:** profundizar en SPL, campos, procesamiento estadístico, enriquecimiento de datos y objetos de conocimiento.
 
-**Temas SPL que deben quedar documentados y practicados:**
-- Estructura de una búsqueda: índice, sourcetype, términos, filtros y rango temporal.
-- Operadores booleanos AND, OR, NOT y agrupación de condiciones.
-- Búsquedas por texto y frases exactas; diferencias entre buscar error, contraseña y la frase exacta "contraseña incorrecta".
-- Campos y metadatos: _time, host, source, sourcetype y campos extraídos.
-- Comparación y filtrado de valores.
-- Comandos de transformación y análisis: stats, sort, top, timechart.
-- Procesamiento de resultados, extracción de campos y lookup.
-- Trabajos de búsqueda (search jobs), estado y tiempo de expiración de resultados.
-- Interpretación de resultados y validación de la consulta frente a los eventos originales.
+Cursos identificados:
+- Using Fields
+- Search Under the Hood
+- Working with Time
+- Comparing Values
+- Statistical Processing
+- Result Modification
+- Creating Field Extractions
+- Enriching Data with Lookups
+- Visualizations
+- Creating Classic Dashboards
+- Scheduling Reports & Alerts
+- Creating Knowledge Objects
+- Data Models
+- Introduction to Dashboards
 
-**Práctica asociada:** LAB-02 — Construcción, depuración e interpretación de consultas SPL.
+Contenidos y ejercicios ya trabajados:
+- Operadores AND, OR y NOT; agrupación de condiciones.
+- Búsqueda de términos y frases exactas, incluida la comparación entre error, contraseña y "contraseña incorrecta".
+- Comandos stats, sort, top y timechart.
+- Comparación de valores, extracción de campos y lookups.
+- Search jobs y expiración de resultados.
+- Search & Reporting, informes, alertas, roles y permisos.
+- Objetos de conocimiento y modelos de datos.
 
-## Etapa 3. Visualización, informes, alertas y objetos de conocimiento
+Prácticas relacionadas: LAB-02 — Consultas SPL y análisis de registros; LAB-03 — Paneles, informes y alertas.
 
-| Curso oficial | Duración registrada | Contenido / competencia |
-|---|---:|---|
-| Visualizations | 1 h | Representación visual de resultados y selección de gráficos. |
-| Creating Classic Dashboards | 2 h | Construcción de dashboards clásicos. |
-| Scheduling Reports & Alerts | 3 h | Programación de informes y configuración de alertas. |
-| Creating Knowledge Objects | 3 h | Creación y administración de objetos de conocimiento. |
-| Data Models | 3 h | Organización y modelado de datos. |
-| Introduction to Dashboards | 1 h | Introducción a dashboards y visualización de información. |
+## 3. Splunk Enterprise Certified Admin
 
-**Temas complementarios:**
-- Aplicación Search & Reporting.
-- Informes guardados y programados.
-- Alertas, condiciones y acciones asociadas.
-- Objetos de conocimiento y reutilización de búsquedas.
-- Roles, permisos y acceso a búsquedas, informes y objetos.
-- Modelos de datos y relación con el análisis de seguridad.
-- Selección de visualizaciones según la pregunta analítica.
+**Objetivo:** desarrollar conocimientos de instalación, configuración, supervisión y mantenimiento de Splunk Enterprise.
 
-**Práctica asociada:** LAB-03 — Dashboard de monitoreo, informes programados y alertas.
+Cursos identificados:
+- Splunk Enterprise Installation and Configuration
+- Using the Monitoring Console
+- Upgrading Splunk Enterprise
 
-## Etapa 4. Detección, análisis de amenazas y threat hunting
+Contenidos a organizar:
+- Instalación y configuración de Splunk Enterprise.
+- Componentes y arquitectura de despliegue.
+- Administración de usuarios, roles y permisos.
+- Configuración y operación de la plataforma.
+- Supervisión mediante Monitoring Console.
+- Mantenimiento y actualización.
 
-| Curso oficial | Duración registrada | Contenido / competencia |
-|---|---:|---|
-| Understanding Threats and Attacks | 4 h | Comprensión de amenazas, ataques y señales observables. |
-| Introduction to Detection Engineering with Splunk | 2 h 30 min | Fundamentos de ingeniería de detección con Splunk. |
-| SOC Essentials: Introduction to Threat Hunting | 4 h | Metodología inicial de búsqueda proactiva de amenazas. |
-| Introduction to Enterprise Security | 40 min | Introducción a Splunk Enterprise Security. |
-| Splunk Security Use Case Development: Using ESCU and Security Essentials | 4 h | Desarrollo de casos de uso de seguridad con ESCU y Security Essentials. |
-| Using Splunk UBA | 4 h | Análisis de comportamiento de usuarios y entidades. |
+Práctica relacionada: LAB-06 — Administración y monitoreo de Splunk. Los temas anteriores son áreas de estudio; no se afirma que el laboratorio esté ejecutado.
 
-**Competencias:** convertir hipótesis de amenaza en búsquedas, identificar patrones anómalos, comprender casos de uso, desarrollar detecciones y contextualizar alertas para un SOC.
+## 4. Splunk Certified Cybersecurity Defense Analyst
 
-**Práctica asociada:** LAB-04 — Detección de actividad sospechosa y documentación de una hipótesis de threat hunting.
+**Objetivo:** orientar el uso de Splunk a operaciones defensivas, análisis de amenazas, detección, threat hunting e investigación.
 
-## Etapa 5. Investigación y respuesta a incidentes
+Ruta y cursos identificados:
+- Security Operations and the Defense Analyst
+- The Cybersecurity Landscape
+- Introduction to Splunk Security Essentials
+- Understanding Threats and Attacks
+- Introduction to Detection Engineering with Splunk
+- SOC Essentials: Introduction to Threat Hunting
+- Introduction to Enterprise Security
+- Splunk Security Use Case Development: Using ESCU and Security Essentials
+- Using Splunk UBA
+- The Art of Investigation
+- Data and Tools for Defense Analysts
 
-| Curso oficial | Duración registrada | Contenido / competencia |
-|---|---:|---|
-| The Art of Investigation | 6 h | Metodología de investigación y análisis de incidentes. |
-| Introduction to Splunk SOAR | 20 min | Introducción a la automatización y orquestación de seguridad. |
-| Implementing Splunk SOAR Community Playbooks | 30 min | Implementación de playbooks comunitarios. |
-| Developing Splunk SOAR Apps | 3 h | Desarrollo de aplicaciones para Splunk SOAR. |
-| Responding to Incidents in Splunk On-Call | 12 min | Gestión y respuesta a incidentes con Splunk On-Call. |
+Contenidos:
+- Operaciones SOC y funciones del analista defensivo.
+- Panorama de amenazas y técnicas de ataque.
+- Búsquedas orientadas a eventos de seguridad.
+- Ingeniería de detección y casos de uso.
+- Threat hunting y análisis de comportamiento.
+- Investigación, correlación y documentación de incidentes.
+- Uso de Enterprise Security, ESCU, Security Essentials y UBA.
 
-**Temas de trabajo:** reconstrucción cronológica de eventos, pivoteo entre campos y fuentes, documentación de hallazgos, priorización, playbooks, automatización y comunicación durante la respuesta.
+Prácticas relacionadas: LAB-04 — Detección de actividad sospechosa; LAB-05 — Investigación de incidentes.
 
-**Práctica asociada:** LAB-05 — Investigación documentada de un incidente simulado y propuesta de respuesta.
+## 5. Splunk Certified Cybersecurity Defense Engineer
 
-## Etapa 6. Administración, operación y tecnologías de análisis
+**Objetivo:** mantener una ruta separada para la especialización de ingeniería defensiva.
 
-| Curso oficial | Duración registrada | Contenido / competencia |
-|---|---:|---|
-| Splunk Enterprise Installation and Configuration | 30 min | Instalación y configuración inicial de Splunk Enterprise. |
-| Using the Monitoring Console | 30 min | Supervisión del estado y funcionamiento de Splunk. |
-| Upgrading Splunk Enterprise | 17 min | Consideraciones para actualizar Splunk Enterprise. |
-| Learning SPL2 Fundamentals | 2 h | Fundamentos del lenguaje SPL2. |
-| Data and Tools for Defense Analysts | 6 h | Datos y herramientas para analistas de defensa. |
+La certificación se conserva con su nombre exacto como término de búsqueda y objetivo de aprendizaje. En la documentación disponible de este repositorio no hay todavía una lista suficientemente verificada de cursos oficiales que permita atribuirle módulos concretos o requisitos de examen.
 
-**Competencias:** comprender instalación y configuración, supervisión de la plataforma, mantenimiento y actualización, evolución de SPL hacia SPL2 y uso de datos/herramientas en actividades defensivas.
+No se agregan cursos ni requisitos por inferencia. La ruta se ampliará cuando se verifiquen los nombres y contenidos correspondientes en Splunk Training.
 
-**Práctica asociada:** LAB-06 — Revisión de administración, monitoreo y operación en un entorno autorizado.
+## 6. Splunk SOAR Certified Automation Developer (Legacy)
 
-## Evaluaciones y ejercicios que forman parte del portafolio
+**Objetivo:** organizar el aprendizaje de automatización y orquestación de respuestas con Splunk SOAR, conservando la indicación Legacy asociada a esta certificación.
 
-Las evaluaciones ya trabajadas deben conservarse como registros independientes, sin mezclarlas con los laboratorios:
+Cursos identificados:
+- Introduction to Splunk SOAR
+- Implementing Splunk SOAR Community Playbooks
+- Developing Splunk SOAR Apps
 
-- **Banco de 15 preguntas técnicas:** conceptos de Splunk, operadores booleanos y búsquedas SPL, trabajos de búsqueda y expiración, Search & Reporting, roles y permisos, objetos de conocimiento e informes.
-- **Evaluación 3 — Interpretación de búsquedas y análisis de resultados:** 10 preguntas; resultado registrado: 9 correctas y 1 incorrecta.
-- **Evaluación 4 — Análisis integral de SPL en Splunk Enterprise:** evaluación de 10 preguntas en desarrollo. Se registró una respuesta inicial incorrecta al comparar búsquedas de errores HTTP con búsquedas de autenticación fallida. No registrar como aprobada ni completada.
-- **Ejercicios SPL:** interpretación de consultas, operadores booleanos, filtros, comparación de términos, análisis estadístico y lectura crítica de resultados.
+Contenidos:
+- Conceptos y componentes de Splunk SOAR.
+- Playbooks comunitarios y flujos de automatización.
+- Aplicaciones e integraciones de SOAR.
+- Automatización de tareas de respuesta.
 
-El detalle de estas actividades se documenta en [EVALUACIONES-Y-EJERCICIOS.md](./EVALUACIONES-Y-EJERCICIOS.md).
+Práctica relacionada: documentar un flujo o playbook únicamente después de implementarlo y probarlo en un entorno autorizado.
 
-## Criterios de avance y evidencia
+## Relación con evaluaciones y laboratorios
 
-1. Mantener el título del curso como aparece en Splunk Training.
-2. Registrar por separado estado, fecha, evaluación y evidencia de cada curso.
-3. Diferenciar contenido revisado, ejercicio propuesto, ejercicio ejecutado y evaluación completada.
-4. Añadir capturas reales de la plataforma, consultas y resultados cuando existan.
-5. No atribuir resultados de laboratorio a consultas que no se hayan ejecutado.
-6. No marcar como aprobado un curso o evaluación sin evidencia verificable.
-7. Los laboratorios LAB-01 a LAB-06 son una estructura de práctica del portafolio; no equivalen a cursos oficiales ni se consideran completados por estar documentados.
+Las evaluaciones y ejercicios registrados se mantienen en [EVALUACIONES-Y-EJERCICIOS.md](./EVALUACIONES-Y-EJERCICIOS.md). Los laboratorios se mantienen en [laboratorios/README.md](./laboratorios/README.md).
+
+## Criterios de avance
+
+1. Mantener los títulos oficiales de certificaciones y cursos.
+2. Registrar el estado real de cada curso y evaluación.
+3. No confundir una ruta de preparación con una certificación obtenida.
+4. Diferenciar los ejercicios conceptuales de los laboratorios ejecutados.
+5. Incorporar evidencias auténticas solo cuando estén disponibles.
