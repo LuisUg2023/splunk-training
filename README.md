@@ -10,6 +10,7 @@ La ruta está organizada por etapas en [RUTA-DE-APRENDIZAJE.md](./RUTA-DE-APREND
 
 ## Documentación práctica
 - [Comandos SPL fundamentales](./SPL-COMANDOS-FUNDAMENTALES.md)
+- [Evaluaciones y ejercicios](./EVALUACIONES-Y-EJERCICIOS.md)
 - [Laboratorios](./laboratorios/README.md)
 
 ## Criterios de registro
